@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class</title>
+    <style>
+        body{
+           
+            background-color: antiquewhite;
+            text-align: center;
+        }
+        div.box{
+
+            display: inline-block;
+            margin-right: 15px ;
+            width: 100px;
+            height: 100px;
+            background-color: deepskyblue;
+        }
+        div.box:hover{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        div.box2{
+            display: inline-block;
+            margin: 15px auto;
+            width: 100px;
+            height: 100px;
+            background-color: lawngreen;
+        }
+        div.box2:hover{
+            border-radius: 100px;
+            width: 100px;
+            height: 100px;
+            background-color: salmon;
+        }
+        span.box{
+            margin-left: 15px;
+            width: 100px;
+            height: 100px;
+            background-color: burlywood;
+        }
+        span.box:hover{
+            border-radius: 100px;
+            width: 100px;
+            height: 100px;
+            background-color: magenta;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box" style="font-size: 100px;text-align: center;">1</div>
+    <div class="box2" style="font-size: 100px; text-align: center;" sty>2</div>
+    <span class="box" style="display: inline-block; text-align: center; font-size: 100px;">3</span>
+    
+</body>
+</html>
